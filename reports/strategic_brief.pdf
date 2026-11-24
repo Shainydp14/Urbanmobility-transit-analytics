@@ -1,0 +1,155 @@
+URBANMOBILITY TRANSIT ANALYTICS
+
+Strategic Brief – Final Project Report
+
+Project Domain: Data Analytics – Smart City Transportation
+Project Location Context: Bengaluru
+Project Type: Transportation Data Analysis and Dashboard Development
+
+1. Executive Summary
+
+UrbanMobility Transit Analytics is a data analytics project designed to examine transportation performance through passenger ridership, journey delays, route efficiency, and trip completion patterns.
+The project uses three datasets containing bus route information, daily passenger ridership, and journey-time records. Python, SQL, data visualization, and an interactive Streamlit dashboard are used to transform raw transportation data into meaningful insights.
+The analysis covers 20 routes, 3,600 ridership records, and 3,600 journey records. The combined analysis helps identify high-demand routes, delay-prone routes, peak-hour congestion patterns, and operational challenges.
+The findings indicate that transportation delays are considerably higher during peak hours. Certain routes also experience consistently higher delays, suggesting opportunities for better scheduling, resource allocation, and operational monitoring.
+
+2. Situation and Business Problem
+
+Urban transportation systems face challenges such as increasing passenger demand, traffic congestion, journey delays, and trip cancellations.
+Without proper analysis, transport operators may find it difficult to identify routes with poor performance, understand passenger demand patterns, and improve service reliability.
+The primary objective of this project is to analyze transportation data and develop a dashboard that helps stakeholders monitor performance and make data-driven operational decisions.
+The project focuses on the following business questions:
+
+Which routes have the highest passenger demand?
+
+Which routes experience the greatest delays?
+
+How do peak and off-peak periods affect journey performance?
+
+How does passenger demand differ between weekdays and weekends?
+
+What is the relationship between scheduled and completed trips?
+
+What operational improvements can be recommended?
+
+3. Key Analytical Findings
+
+The following findings were obtained from the available datasets and SQL analysis.
+MetricAnalytical ResultTotal routes20Total passenger ridership4,077,797Average daily passengers per route-day record1,132.72Average on-time performance54.31%Total trip cancellations6,733Scheduled trips80,280Completed trips73,547Ridership records3,600Journey records3,600 
+
+Finding 1: Route Performance
+
+Routes R16, R20, R09, R18, and R06 recorded the highest average delays in the ridership analysis.
+Route R16 recorded the highest average delay of approximately 35.90 minutes, followed by R20 at 35.62 minutes.
+These routes should be prioritized for further operational investigation.
+
+Finding 2: Peak-Hour Congestion
+
+The analysis shows a significant difference between peak and off-peak journey delays.
+PeriodAverage DelayPeak hours19.84 minutesOff-peak hours3.65 minutes 
+Peak-hour journeys also recorded higher average passenger counts.
+This indicates that higher passenger demand during peak periods is associated with increased journey delays.
+
+Finding 3: Passenger Demand
+
+Route R03 recorded the highest total ridership, with 365,091 passengers.
+This suggests that high-demand routes require careful capacity planning and service monitoring.
+
+Finding 4: Weekday and Weekend Ridership
+
+Day TypeAverage PassengersWeekday1,260.98Weekend808.31 
+Weekday passenger demand is considerably higher than weekend demand, indicating the importance of adjusting service capacity according to travel patterns.
+
+Finding 5: Trip Reliability
+
+The datasets recorded 80,280 scheduled trips and 73,547 completed trips, with 6,733 cancellations.
+This highlights the need to monitor trip completion and investigate the reasons behind cancellations.
+
+4. Business Implications
+
+The analysis provides several important implications for transportation operators.
+
+Operational efficiency: Routes experiencing higher delays require closer monitoring and operational improvements.
+
+Resource allocation: High-demand routes may require additional service capacity during busy periods.
+
+Schedule optimization: Peak-hour scheduling should consider passenger demand and historical delay patterns.
+
+Service reliability: Monitoring cancellations can help identify operational weaknesses.
+
+Data-driven planning: Interactive dashboards allow stakeholders to monitor performance and identify areas requiring attention.
+
+5. Prioritized Recommendations
+
+Recommendation 1: Improve Peak-Hour Scheduling
+
+Priority: High
+Peak-hour journeys experience an average delay of 19.84 minutes compared with 3.65 minutes during off-peak periods.
+Transport operators should review peak-hour schedules, improve vehicle allocation, and consider additional trips on high-demand services.
+Expected impact: Reduced peak-hour delays and improved passenger experience. The actual reduction should be measured after implementation.
+
+Recommendation 2: Monitor High-Delay Routes
+
+Priority: High
+Routes R16, R20, R09, R18, and R06 should receive priority attention because they recorded the highest average delays.
+Operators should investigate possible causes such as traffic conditions, scheduling issues, and operational interruptions.
+Expected impact: Better route reliability and more targeted operational improvements.
+
+Recommendation 3: Optimize Capacity Based on Passenger Demand
+
+Priority: Medium
+Route R03 recorded the highest ridership, with 365,091 passengers. Weekday demand was also higher than weekend demand.
+Operators should use historical ridership patterns to plan service frequency and vehicle capacity.
+Expected impact: Better utilization of transportation resources and reduced overcrowding on high-demand services.
+
+6. Dashboard and Technical Implementation
+
+An interactive dashboard was developed using Streamlit, Python, Pandas, and Plotly.
+The dashboard provides:
+
+Total passenger ridership.
+
+Average passenger and delay metrics.
+
+On-time performance.
+
+Trip cancellation statistics.
+
+Route-wise performance comparisons.
+
+Peak and off-peak delay analysis.
+
+Hourly delay visualization.
+
+Weekday and weekend ridership comparisons.
+
+Delay pattern heatmap.
+
+The dashboard reads the cleaned CSV datasets and refreshes periodically to display updated file contents.
+SQL was used for structured data analysis, while Python supported data processing and visualization.
+
+7. Limitations and Future Scope
+
+The current analysis uses 20 routes, with 3,600 ridership records and 3,600 journey records.
+The available route dataset contains intercity route information. Therefore, the findings should not be interpreted as verified Bengaluru Metro operational results.
+The project currently does not connect to a live transportation API. Dashboard refresh is based on the available CSV files rather than a real-time transport data feed.
+Future improvements may include:
+
+Expanding the dataset to cover at least 30 verified routes.
+
+Integrating authentic Bengaluru public transportation data.
+
+Connecting live GPS or transport feeds.
+
+Developing delay prediction models.
+
+Adding graph-based route connectivity and shortest-path analysis.
+
+Incorporating passenger feedback and traffic information.
+
+8. Conclusion
+
+UrbanMobility Transit Analytics demonstrates how data analytics can support transportation planning and operational decision-making.
+By combining data cleaning, SQL analysis, Python visualization, and an interactive dashboard, the project identifies important patterns in passenger demand, journey delays, and trip reliability.
+The findings highlight the importance of peak-hour scheduling, high-delay route monitoring, and demand-based capacity planning.
+The project provides a foundation for further development into a comprehensive transportation analytics solution.

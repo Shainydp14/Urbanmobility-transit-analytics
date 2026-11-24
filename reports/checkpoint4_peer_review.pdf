@@ -1,0 +1,39 @@
+PEER REVIEW REPORT
+
+UrbanMobility Transit Analytics – Dashboard V1
+
+1. Review Details
+
+Project Name: UrbanMobility Transit Analytics
+Dashboard Version: Version 1
+Reviewer Name: Shreya
+Review Date: 24 November 2026
+Review Method: Dashboard demonstration and heuristic evaluation
+
+2. Dashboard Overview
+
+The UrbanMobility Transit Analytics dashboard was developed using Python, Streamlit, Pandas, and Plotly. It provides insights into passenger ridership, route performance, journey delays, trip cancellations, and scheduled versus completed trips.
+
+3. Peer Review Feedback
+
+Review AreaFeedbackKPI CardsThe KPI cards provide a quick overview of important transit performance metrics.Charts and VisualizationsThe charts help users understand ridership and journey delay patterns.Dashboard LayoutThe dashboard is organized and provides easy access to important information.Route FiltersRoute selection helps users focus on individual route performance.RecommendationsThe recommendations highlight important areas that require improvement. 
+
+4. Revision List
+
+Based on the review, the following improvements were identified:
+
+Improve KPI descriptions to make the metrics easier to understand.
+
+Ensure all charts have clear titles and labels.
+
+Maintain consistent spacing and alignment across dashboard sections.
+
+Verify the functionality of route filters.
+
+Improve the presentation of recommendations for better readability.
+
+5. Conclusion
+
+The review identified opportunities to improve the dashboard's readability, usability, and presentation. The suggested revisions will help make the final dashboard more informative and user-friendly.
+Reviewer Name: Shreya
+Project: UrbanMobility Transit Analytics

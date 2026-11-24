@@ -1,0 +1,21 @@
+route_id,route_name,supplier_id,source_city,destination_city,distance_km,standard_transit_days,carrier_type
+R01,Mumbai-Delhi Express,S001,Mumbai,Delhi,1415,2,Road
+R02,Bangalore-Chennai Corridor,S002,Bangalore,Chennai,347,1,Road
+R03,Kolkata-Mumbai Link,S003,Kolkata,Mumbai,1980,3,Rail
+R04,Delhi-Jaipur Route,S004,Delhi,Jaipur,281,1,Road
+R05,Hyderabad-Bangalore Lane,S005,Hyderabad,Bangalore,570,1,Road
+R06,Pune-Mumbai Express,S006,Pune,Mumbai,149,1,Road
+R07,Chennai-Hyderabad Corridor,S007,Chennai,Hyderabad,626,1,Road
+R08,Ahmedabad-Mumbai Route,S008,Ahmedabad,Mumbai,524,1,Road
+R09,Delhi-Chandigarh Lane,S009,Delhi,Chandigarh,246,1,Road
+R10,Kolkata-Chennai Link,S010,Kolkata,Chennai,1668,2,Rail
+R11,Bangalore-Pune Corridor,S001,Bangalore,Pune,838,2,Road
+R12,Mumbai-Kolkata Express,S002,Mumbai,Kolkata,1980,3,Rail
+R13,Delhi-Lucknow Route,S003,Delhi,Lucknow,497,1,Road
+R14,Hyderabad-Chennai Link,S004,Hyderabad,Chennai,626,1,Road
+R15,Jaipur-Ahmedabad Lane,S005,Jaipur,Ahmedabad,282,1,Road
+R16,Pune-Bangalore Corridor,S006,Pune,Bangalore,838,2,Road
+R17,Chennai-Kolkata Express,S007,Chennai,Kolkata,1668,2,Rail
+R18,Mumbai-Hyderabad Route,S008,Mumbai,Hyderabad,710,2,Road
+R19,Delhi-Pune Link,S009,Delhi,Pune,1403,2,Road
+R20,Bangalore-Kolkata Lane,S010,Bangalore,Kolkata,1870,3,Rail
